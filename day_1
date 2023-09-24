@@ -1,0 +1,11 @@
+#Log1
+"""Gave a Leetcode Contest today. I solved the first question and here is the solution. Contest - Leetcode Weekly Contest-364(24/09/23) 2864. Maximum Odd Binary Number"""
+class Solution:
+    def maximumOddBinaryNumber(self, s: str) -> str:
+        count = s.count('1')
+        return '1' * (count - 1) + '0' * (len(s) - count) + '1'
+#Time Complesity - 0(1)
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Log2
+"""As part of Strivers SDE DSA Sheet, I solved the first question from Arrays subcategory."""
+          
